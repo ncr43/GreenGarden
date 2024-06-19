@@ -1,0 +1,157 @@
+body {
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+        color: #333;
+        scroll-behavior: smooth;
+      }
+      header {
+        background-color: #2E8B57;
+        color: white;
+        padding: 20px 0;
+        text-align: center;
+      }
+      nav {
+        margin: 20px 0;
+      }
+      nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 15px;
+        cursor: pointer;
+      }
+      main {
+        height: 70vh;
+        overflow: hidden;
+        position: relative;
+      }
+      .parallax {
+        background: url('pictures/_DSC5631_id_54_1920_1280_13567.jpg') no-repeat center center;
+        background-attachment: fixed;
+        background-size: cover;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+      }
+      section {
+        position: relative;
+        z-index: 1;
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+        margin: auto;
+        width: 80%;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+      section h1 {
+        font-size: 2.5em;
+        margin-bottom: 20px;
+      }
+      section p {
+        font-size: 1.2em;
+      }
+      .about {
+      padding: 40px 20px;
+      background-color: #f9f9f9;
+      text-align: center;
+    }
+    .about h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+    .about p {
+      font-size: 1.1em;
+      margin-bottom: 20px;
+    }
+    .about .highlights {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .about .highlight {
+      background-color: white;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      max-width: 300px;
+      text-align: center;
+    }
+    .about .highlight img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+    .about .highlight h3 {
+      font-size: 1.5em;
+      margin-bottom: 10px;
+    }
+    .about .highlight p {
+      font-size: 1em;
+      margin-bottom: 15px;
+      }
+      .gallery {
+        padding: 40px 20px;
+        background-color: #f9f9f9;
+        text-align: center;
+      }
+      .gallery h2 {
+        font-size: 2em;
+        margin-bottom: 20px;
+      }
+      .gallery .photos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+      }
+      .gallery .photos img {
+        width: calc(33.333% - 10px);
+        height: auto;
+        border-radius: 10px;
+      }
+      .location {
+        padding: 40px 20px;
+        background-color: #f9f9f9;
+        text-align: center;
+      }
+      .location h2 {
+        font-size: 2em;
+        margin-bottom: 20px;
+      }
+      .location iframe {
+        width: 80%;
+        height: 450px;
+        border: 0;
+        border-radius: 10px;
+      }
+      .contact {
+        padding: 40px 20px;
+        background-color: #f9f9f9;
+        text-align: center;
+      }
+      .contact h2 {
+        font-size: 2em;
+        margin-bottom: 20px;
+      }
+      .contact p {
+        font-size: 1.1em;
+        margin-bottom: 10px;
+      }
+      .contact a {
+        color: #2E8B57;
+        text-decoration: none;
+      }
+      footer {
+        background-color: #2E8B57;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+      }
