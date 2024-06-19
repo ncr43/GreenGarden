@@ -1,0 +1,101 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <title>База отдыха "Green Garden"</title>
+    <meta name="description" content="Идеальное место для отдыха и релаксации в окружении природы" />
+    
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="icon" href="/img/favicon.png">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+    
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <header>
+      <h1>База отдыха "Green Garden"</h1>
+      <nav>
+        <a href="#about">О нас</a>
+        <a href="#gallery">Галерея</a>
+        <a href="#location">Местоположение</a>
+        <a href="#contact">Контакты</a>
+      </nav>
+    </header>
+
+    <main>
+      <div class="parallax"></div>
+      <section>
+        <h1>Добро пожаловать!</h1>
+        <p>Наслаждайтесь отдыхом на природе в комфортных условиях</p>
+      </section>
+    </main>
+
+    <div class="about" id="about">
+      <h2>О нас</h2>
+      <div class="highlights">
+        <div class="highlight">
+          <img src="img/экоферма.jpg" alt="Экоферма">
+          <h3>Уникальная экоферма</h3>
+          <p>Познакомьтесь с процессами органического земледелия и покормите животных на нашей экоферме.</p>
+        </div>
+        <div class="highlight">
+          <img src="img/природа.jpg" alt="Природа">
+          <h3>Живописные пейзажи</h3>
+          <p>Наша база отдыха расположена в живописном месте, окруженном зелеными садами и чистыми озерами.</p>
+        </div>
+        <div class="highlight">
+          <img src="img/комфорт.jpg" alt="Комфорт">
+          <h3>Комфорт и уют</h3>
+          <p>Уютные домики и современные удобства сделают ваш отдых незабываемым.</p>
+        </div>
+      </div>
+      <p>Мы стремимся создать атмосферу, где каждый гость почувствует себя частью природы. В "Green Garden" вы найдете не только комфортные условия для отдыха, но и возможность отдохнуть душой, отключившись от городской суеты и повседневных забот.</p>
+      <p>Мы ждем вас в "Green Garden", чтобы поделиться с вами теплом, радушием и любовью к природе!</p>
+    </div>
+
+    <div class="gallery" id="gallery">
+      <h2>Галерея</h2>
+      <div class="photos">
+        <img src="img/1.jpg" alt="Фото 1">
+        <img src="img/2.jpg" alt="Фото 2">
+        <img src="img/3 (2).jpg" alt="Фото 3">
+        <img src="img/4.jpg" alt="Фото 4">
+        <img src="img/5.jpg" alt="Фото 5">
+        <img src="img/6.jpg" alt="Фото 6">
+      </div>
+    </div>
+
+    <div class="location" id="location">
+      <h2>Местоположение</h2>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10103.732642759505!2d41.28162370599643!3d56.242688330577245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x414c38efdfa557c9%3A0x7ec224b2b4ece870!2z0JLQtdC70LjQutC-0LLQviwg0JLQu9Cw0LTQuNC80LjRgNGB0LrQsNGPINC-0LHQuy4sIDYwMTk2Nw!5e1!3m2!1sru!2sru!4v1716916105605!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <div class="contact" id="contact">
+      <h2>Контакты</h2>
+      <p>Адрес: Ковровский район п.Великово</p>
+      <p>Телефон: <a href="tel:+74957084516">+7(495) 708-45-16</a></p>
+      <p>Email: <a href="mailto:info@GreenGarden.ru">info@GreenGarden.ru</a></p>
+      <p>Следите за нами в социальных сетях:</p>
+      <p><a href="#">ВКонтакте</a> | <a href="#">Instagram</a> | <a href="#">Facebook</a></p>
+    </div>
+
+    <footer>
+      <p>&copy; 2024 База отдыха "Green Garden". Все права защищены.</p>
+    </footer>
+
+    <script>
+      // Скрипт для плавной прокрутки при клике на якорные ссылки
+      document.querySelectorAll('nav a').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+          document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+          });
+        });
+      });
+    </script>
+
+  </body>
+</html>
